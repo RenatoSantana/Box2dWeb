@@ -1,6 +1,6 @@
 Package.describe({
   name: 'horhekenu:box2dweb',
-  version: '2.1.3',
+  version: '2.1.3_1',
   // Brief, one-line summary of the package.
   summary: 'Engine was developed by Erin Catto (visit http://www.gphysics.com for further information)',
   // URL to the Git repository containing the source code for this package.
@@ -11,7 +11,7 @@ Package.describe({
 });
 
 Package.onUse(function(api) {
-  api.use("Box2D", "client");
+ ete api.use("Box2D", "client");
   api.versionsFrom('1.0.3.2');
   api.addFiles('horhekenu:box2dweb.js',"client");
 });
